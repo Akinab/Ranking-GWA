@@ -19,3 +19,5 @@ for line in lines:
     name, gwa = line.strip().split()
     # convert the GWA to a float
     gwa = float(gwa)
+    # check if the current GWA is higher than the current highest GWA
+    if gwa > highest_gwa:
