@@ -14,3 +14,4 @@ highest_gwa = 0.0
 highest_gwa_student = ""
 
 # iterate over the lines in the file
+for line in lines:
