@@ -26,3 +26,4 @@ for line in lines:
         highest_gwa_student = name
 
 # output the name of the student who got the highest GWA and their GWA
+print(f"{highest_gwa_student} got the highest GWA of {highest_gwa}.")
