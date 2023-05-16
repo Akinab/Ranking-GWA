@@ -12,3 +12,5 @@ with open('students.txt', 'r') as f:
 # initialize variables to hold the highest GWA and the name of the student who got it
 highest_gwa = 0.0
 highest_gwa_student = ""
+
+# iterate over the lines in the file
