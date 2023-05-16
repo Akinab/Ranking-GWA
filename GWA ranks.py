@@ -21,3 +21,6 @@ for line in lines:
     gwa = float(gwa)
     # check if the current GWA is higher than the current highest GWA
     if gwa > highest_gwa:
+        # update the highest GWA and the name of the student who got it
+        highest_gwa = gwa
+        highest_gwa_student = name
