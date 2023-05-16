@@ -6,3 +6,5 @@ def details ():
 details ()
 
 # open the input file
+with open('students.txt', 'r') as f:
+    lines = f.readlines()
