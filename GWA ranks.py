@@ -24,3 +24,5 @@ for line in lines:
         # update the highest GWA and the name of the student who got it
         highest_gwa = gwa
         highest_gwa_student = name
+
+# output the name of the student who got the highest GWA and their GWA
