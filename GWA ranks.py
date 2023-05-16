@@ -15,6 +15,7 @@ highest_gwa_student = ""
 
 # iterate over the lines in the file
 for line in lines:
-
-# split the line into a list of name and GWA
+    # split the line into a list of name and GWA
     name, gwa = line.strip().split()
+    # convert the GWA to a float
+    gwa = float(gwa)
