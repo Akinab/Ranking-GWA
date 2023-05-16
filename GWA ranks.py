@@ -8,3 +8,5 @@ details ()
 # open the input file
 with open('students.txt', 'r') as f:
     lines = f.readlines()
+
+# initialize variables to hold the highest GWA and the name of the student who got it
